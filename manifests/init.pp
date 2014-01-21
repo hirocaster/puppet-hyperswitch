@@ -1,4 +1,7 @@
 # This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+class hyperswitch {
+  package { 'hyperswitch':
+    provider => 'compressed_app',
+    source   => 'http://bahoom.com/hyperswitch/HyperSwitch.zip'
+  }
 }
